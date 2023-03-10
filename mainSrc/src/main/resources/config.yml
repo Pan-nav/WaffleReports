@@ -1,0 +1,44 @@
+#Thank you for using Waffle Reports. This is my first plugin so there might be bugs, or if you need
+#support, please join https://discord.gg/dt996BNkXt and I will assist you there
+
+#Terms and Conditions: By using this plugin you agree that Waffles are better than Pancakes
+#Plugin by Fatnav
+
+
+#MySQL database
+MYSQL:
+  HOST: "localhost"
+  PORT: 3306
+  USERNAME: "root"
+  DATABASE: "waffles"
+  PASSWORD: ""
+
+#Settings
+
+#Plugin Prefix
+prefix: 'WaffleReports'
+
+#The time player will have between reports. (in seconds)
+Cooldown: 50
+
+#Message that would be sent if the target is unavailable
+missingTarget: 'Invalid Target!'
+
+#Message that would be sent if a person tries to report himself.
+SelfPrompt: 'Imagine reporting yourself!'
+
+#Goto allows the staff to teleport to the accused.
+Go-To: true
+
+#Reasons to display in the book. Defaults are Hypixel reporting options
+Reasons:
+  - Chat Abuse/Scam
+  - Cheating (Hacking)
+  - Bad Name
+  - Guild Name/Tag
+  - Cross Teaming
+  - Bad Skin/Cape
+  - Bad PetName
+  - Stats Boosting
+  - Bad ItemName
+  - Signs/Holograms

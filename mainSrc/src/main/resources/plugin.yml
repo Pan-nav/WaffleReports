@@ -1,0 +1,14 @@
+name: WaffleReports
+version: '${version}'
+main: com.panav.wafflereports.WaffleReports
+load: STARTUP
+authors: [ Fatnav ]
+commands:
+  report:
+    description: Report offenders
+    aliases: Report, REPORT
+  wreport:
+    description: Staff commands for waffle reports
+    aliases: Wreport, WREPORT, WReport
+  closeBook:
+    description: cancel the report by closing the book
