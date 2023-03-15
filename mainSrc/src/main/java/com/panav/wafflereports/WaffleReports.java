@@ -6,12 +6,14 @@ import com.panav.wafflereports.Core.wreports;
 import com.panav.wafflereports.GUI.GUIListener;
 import com.panav.wafflereports.GUI.ReportDeletion;
 import org.bukkit.Bukkit;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.jetbrains.annotations.NotNull;
 
 import java.sql.SQLException;
 
-public final class WaffleReports extends JavaPlugin {
+public final class WaffleReports extends JavaPlugin implements Listener {
 
     public static WaffleReports instance;
     private MySQL database;
