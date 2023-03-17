@@ -1,6 +1,6 @@
-package com.panav.wafflereports.Core;
+package com.panav.wafflereports.core;
 
-import com.panav.wafflereports.GUI.UI;
+import com.panav.wafflereports.gui.UI;
 import com.panav.wafflereports.WaffleReports;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -13,7 +13,7 @@ import org.bukkit.entity.Player;
 
 import java.sql.SQLException;
 
-public class wreports implements CommandExecutor{
+public class WReports implements CommandExecutor{
     private final WaffleReports wreports = WaffleReports.instance;
 
     protected Player player;

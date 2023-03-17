@@ -1,4 +1,4 @@
-package com.panav.wafflereports.GUI;
+package com.panav.wafflereports.gui;
 
 import org.bukkit.inventory.ItemStack;
 

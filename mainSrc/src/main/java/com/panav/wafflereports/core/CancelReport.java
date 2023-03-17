@@ -1,4 +1,4 @@
-package com.panav.wafflereports.Core;
+package com.panav.wafflereports.core;
 
 import com.panav.wafflereports.WaffleReports;
 import org.bukkit.ChatColor;

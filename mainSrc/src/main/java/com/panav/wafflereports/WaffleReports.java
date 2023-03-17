@@ -1,10 +1,10 @@
 package com.panav.wafflereports;
 
-import com.panav.wafflereports.Core.CancelReport;
-import com.panav.wafflereports.Core.ReportsHandler;
-import com.panav.wafflereports.Core.wreports;
-import com.panav.wafflereports.GUI.GUIListener;
-import com.panav.wafflereports.GUI.ReportDeletion;
+import com.panav.wafflereports.core.CancelReport;
+import com.panav.wafflereports.core.ReportsHandler;
+import com.panav.wafflereports.core.WReports;
+import com.panav.wafflereports.gui.GUIListener;
+import com.panav.wafflereports.gui.ReportDeletion;
 import org.bukkit.Bukkit;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -25,7 +25,7 @@ public final class WaffleReports extends JavaPlugin implements Listener {
         Database();
 
         getCommand("report").setExecutor(new ReportsHandler());
-        getCommand("wreport").setExecutor(new wreports());
+        getCommand("wreport").setExecutor(new WReports());
         getCommand("closeBook").setExecutor(new CancelReport());
 
         Bukkit.getPluginManager().registerEvents(this, this);

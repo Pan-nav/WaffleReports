@@ -1,4 +1,4 @@
-package com.panav.wafflereports.GUI;
+package com.panav.wafflereports.gui;
 import com.panav.wafflereports.MySQL;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
